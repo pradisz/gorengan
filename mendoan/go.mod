@@ -3,18 +3,19 @@ module github.com/diszy10/gorengan/mendoan
 go 1.16
 
 require (
-	github.com/gin-gonic/gin v1.7.3 // indirect
-	github.com/go-playground/validator/v10 v10.9.0 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/joho/godotenv v1.3.0 // indirect
-	github.com/json-iterator/go v1.1.11 // indirect
-	github.com/mattn/go-isatty v0.0.13 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
-	github.com/ugorji/go v1.2.6 // indirect
-	golang.org/x/sys v0.0.0-20210809222454-d867a43fc93e // indirect
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gorm.io/gorm v1.21.13 // indirect
+	github.com/gobuffalo/buffalo v0.17.2
+	github.com/gobuffalo/buffalo-pop/v2 v2.3.0
+	github.com/gobuffalo/envy v1.9.0
+	github.com/gobuffalo/mw-contenttype v0.0.0-20190224202710-36c73cc938f3
+	github.com/gobuffalo/mw-forcessl v0.0.0-20200131175327-94b2bd771862
+	github.com/gobuffalo/mw-i18n v0.0.0-20190129204410-552713a3ebb4
+	// github.com/gobuffalo/mw-i18n v1.1.0
+	github.com/gobuffalo/mw-paramlogger v1.0.0
+	github.com/gobuffalo/packr/v2 v2.8.1
+	github.com/gobuffalo/pop/v5 v5.3.4
+	github.com/gobuffalo/suite v2.8.2+incompatible
+	github.com/gobuffalo/x v0.1.0
+	github.com/markbates/grift v1.5.0
+	github.com/rs/cors v1.8.0
+	github.com/unrolled/secure v1.0.9
 )
